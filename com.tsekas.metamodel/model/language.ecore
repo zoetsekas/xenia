@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="language" nsURI="http://zoe.tsekas.com/language" nsPrefix="language">
+  <eSubpackages name="foundation" nsURI="http://zoe.tsekas.com/language/foundation"
+      nsPrefix="foundation">
+    <eSubpackages name="structure" nsURI="http://zoe.tsekas.com/language/foundation/structure"
+        nsPrefix="structure">
+      <eClassifiers xsi:type="ecore:EClass" name="MetaElement" abstract="true">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="identifier" lowerBound="1"
+            eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="owner" eType="#//foundation/structure/MetaElement"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaNamedElement" abstract="true"
+          eSuperTypes="#//foundation/structure/MetaElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+            eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaPackageableElement" abstract="true"
+          eSuperTypes="#//foundation/structure/MetaNamedElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaPackage" abstract="true" eSuperTypes="#//foundation/structure/MetaModel #//foundation/structure/MetaPackageableElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaTypedElement" abstract="true"
+          eSuperTypes="#//foundation/structure/MetaPackageableElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaModel" abstract="true" eSuperTypes="#//foundation/structure/MetaNamedElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="packagedElements" upperBound="-1"
+            eType="#//foundation/structure/MetaPackageableElement" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaProperty" abstract="true" eSuperTypes="#//foundation/structure/MetaNamedElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1"
+            eType="#//foundation/structure/MetaTypedElement"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" lowerBound="1"
+            eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="0"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" lowerBound="1"
+            eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="1"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaClassifier" abstract="true"
+          eSuperTypes="#//foundation/structure/MetaTypedElement">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="abstract" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaClass" abstract="true" eSuperTypes="#//foundation/structure/MetaClassifier">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="ownedProperties" upperBound="-1"
+            eType="#//foundation/structure/MetaProperty" containment="true"/>
+      </eClassifiers>
+    </eSubpackages>
+    <eSubpackages name="relationship" nsURI="http://zoe.tsekas.com/language/foundation/relationship"
+        nsPrefix="relationship">
+      <eClassifiers xsi:type="ecore:EClass" name="MetaRelationship" abstract="true"
+          eSuperTypes="#//foundation/structure/MetaPackageableElement">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+            eType="#//foundation/structure/MetaClassifier"/>
+        <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+            eType="#//foundation/structure/MetaClassifier"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaInheritance" abstract="true"
+          eSuperTypes="#//foundation/relationship/MetaRelationship"/>
+    </eSubpackages>
+    <eSubpackages name="datatype" nsURI="http://zoe.tsekas.com/language/foundation/datatype"
+        nsPrefix="datatype">
+      <eClassifiers xsi:type="ecore:EClass" name="MetaDataType" abstract="true" eSuperTypes="#//foundation/structure/MetaPackageableElement"/>
+      <eClassifiers xsi:type="ecore:EClass" name="MetaText" abstract="true" eSuperTypes="#//foundation/datatype/MetaDataType">
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="minLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        <eStructuralFeatures xsi:type="ecore:EAttribute" name="pattern" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eClassifiers>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="architecture" nsURI="http://zoe.tsekas.com/language/architecture"
+      nsPrefix="architecture">
+    <eSubpackages name="information" nsURI="http://zoe.tsekas.com/language/architecture/information"
+        nsPrefix="information">
+      <eClassifiers xsi:type="ecore:EClass" name="Domain" eSuperTypes="#//foundation/structure/MetaModel"/>
+      <eClassifiers xsi:type="ecore:EClass" name="SubDomain" eSuperTypes="#//foundation/structure/MetaPackage"/>
+      <eClassifiers xsi:type="ecore:EClass" name="Concept" eSuperTypes="#//foundation/structure/MetaClass"/>
+      <eClassifiers xsi:type="ecore:EClass" name="Entity" eSuperTypes="#//architecture/information/Concept">
+        <eStructuralFeatures xsi:type="ecore:EReference" name="extension" eType="#//architecture/information/Extension"
+            containment="true"/>
+      </eClassifiers>
+      <eClassifiers xsi:type="ecore:EClass" name="Attribute" eSuperTypes="#//foundation/structure/MetaProperty"/>
+      <eClassifiers xsi:type="ecore:EClass" name="Extension" eSuperTypes="#//foundation/relationship/MetaInheritance"/>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="business" nsURI="http://zoe.tsekas.com/language/business" nsPrefix="business">
+    <eSubpackages name="financial" nsURI="http://zoe.tsekas.com/language/business/financial"
+        nsPrefix="financial">
+      <eSubpackages name="product" nsURI="http://zoe.tsekas.com/language/business/financial/product"
+          nsPrefix="product">
+        <eClassifiers xsi:type="ecore:EClass" name="FinancialProduct" eSuperTypes="#//architecture/information/Entity">
+          <eStructuralFeatures xsi:type="ecore:EReference" name="tradeLegs" upperBound="-1"
+              eType="#//business/financial/product/TradeLeg" containment="true"/>
+          <eStructuralFeatures xsi:type="ecore:EReference" name="options" upperBound="-1"
+              eType="#//business/financial/product/Option" containment="true"/>
+          <eStructuralFeatures xsi:type="ecore:EReference" name="triggers" upperBound="-1"
+              eType="#//business/financial/product/Trigger" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EClass" name="TradeLeg" eSuperTypes="#//architecture/information/Entity">
+          <eStructuralFeatures xsi:type="ecore:EReference" name="flows" upperBound="-1"
+              eType="#//business/financial/product/Flow" containment="true"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EClass" name="Option" eSuperTypes="#//architecture/information/Entity"/>
+        <eClassifiers xsi:type="ecore:EClass" name="Trigger" eSuperTypes="#//architecture/information/Entity"/>
+        <eClassifiers xsi:type="ecore:EClass" name="Flow" abstract="true" eSuperTypes="#//architecture/information/Entity"/>
+        <eClassifiers xsi:type="ecore:EClass" name="CashFlow" eSuperTypes="#//business/financial/product/Flow"/>
+        <eClassifiers xsi:type="ecore:EClass" name="CommodityFlow" eSuperTypes="#//business/financial/product/Flow"/>
+        <eClassifiers xsi:type="ecore:EClass" name="ProductModel" eSuperTypes="#//architecture/information/Domain"/>
+      </eSubpackages>
+    </eSubpackages>
+    <eSubpackages name="businessEntity" nsURI="http://zoe.tsekas.com/language/business/entity"
+        nsPrefix="businessEntity">
+      <eClassifiers xsi:type="ecore:EClass" name="BusinessEntity" abstract="true"
+          eSuperTypes="#//architecture/information/Concept"/>
+      <eClassifiers xsi:type="ecore:EClass" name="Organisation" eSuperTypes="#//business/businessEntity/BusinessEntity #//architecture/information/Entity"/>
+      <eClassifiers xsi:type="ecore:EClass" name="Person" eSuperTypes="#//business/businessEntity/BusinessEntity #//architecture/information/Entity"/>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>

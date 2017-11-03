@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service
+Bundle-SymbolicName: com.tsekas.metamodel.ui.service;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TSEKAS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.tsekas.metamodel.ui.service
+Require-Bundle: org.eclipse.emf.ecore

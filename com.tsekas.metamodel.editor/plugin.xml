@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated language -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="language.architecture.information.presentation.InformationModelWizardID"
+            name="%_UI_InformationModelWizard_label"
+            class="language.architecture.information.presentation.InformationModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/InformationModelFile.gif">
+         <description>%_UI_InformationModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated language -->
+      <editor
+            id="language.architecture.information.presentation.InformationEditorID"
+            name="%_UI_InformationEditor_label"
+            icon="icons/full/obj16/InformationModelFile.gif"
+            extensions="information"
+            class="language.architecture.information.presentation.InformationEditor"
+            contributorClass="language.architecture.information.presentation.InformationActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated language -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="language.business.financial.product.presentation.ProductModelWizardID"
+            name="%_UI_ProductModelWizard_label"
+            class="language.business.financial.product.presentation.ProductModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ProductModelFile.gif">
+         <description>%_UI_ProductModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated language -->
+      <editor
+            id="language.business.financial.product.presentation.ProductEditorID"
+            name="%_UI_ProductEditor_label"
+            icon="icons/full/obj16/ProductModelFile.gif"
+            extensions="product"
+            class="language.business.financial.product.presentation.ProductEditor"
+            contributorClass="language.business.financial.product.presentation.ProductActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated language -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="language.business.businessEntity.presentation.BusinessEntityModelWizardID"
+            name="%_UI_BusinessEntityModelWizard_label"
+            class="language.business.businessEntity.presentation.BusinessEntityModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BusinessEntityModelFile.gif">
+         <description>%_UI_BusinessEntityModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated language -->
+      <editor
+            id="language.business.businessEntity.presentation.BusinessEntityEditorID"
+            name="%_UI_BusinessEntityEditor_label"
+            icon="icons/full/obj16/BusinessEntityModelFile.gif"
+            extensions="businessentity"
+            class="language.business.businessEntity.presentation.BusinessEntityEditor"
+            contributorClass="language.business.businessEntity.presentation.BusinessEntityActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

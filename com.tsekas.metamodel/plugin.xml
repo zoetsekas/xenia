@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/foundation/structure"
+            class="language.foundation.structure.StructurePackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/foundation/relationship"
+            class="language.foundation.relationship.RelationshipPackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/foundation/datatype"
+            class="language.foundation.datatype.DatatypePackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/architecture/information"
+            class="language.architecture.information.InformationPackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/business/financial/product"
+            class="language.business.financial.product.ProductPackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated language -->
+      <package
+            uri="http://zoe.tsekas.com/language/business/entity"
+            class="language.business.businessEntity.BusinessEntityPackage"
+            genModel="model/language.genmodel"/>
+   </extension>
+
+</plugin>

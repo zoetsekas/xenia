@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.tsekas.metamodel/src" modelPluginID="com.tsekas.metamodel"
+    modelName="Language" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>language.ecore</foreignModel>
+  <genPackages prefix="Language" disposableProviderFactory="true" ecorePackage="language.ecore#/">
+    <nestedGenPackages prefix="Foundation" disposableProviderFactory="true" ecorePackage="language.ecore#//foundation">
+      <nestedGenPackages prefix="Structure" disposableProviderFactory="true" ecorePackage="language.ecore#//foundation/structure">
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaElement">
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/structure/MetaElement/identifier"/>
+          <genFeatures notify="false" createChild="false" propertySortChoices="true"
+              ecoreFeature="ecore:EReference language.ecore#//foundation/structure/MetaElement/owner"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaNamedElement">
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/structure/MetaNamedElement/name"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaPackageableElement"/>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaPackage"/>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaTypedElement"/>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaModel">
+          <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//foundation/structure/MetaModel/packagedElements"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaProperty">
+          <genFeatures notify="false" createChild="false" propertySortChoices="true"
+              ecoreFeature="ecore:EReference language.ecore#//foundation/structure/MetaProperty/type"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/structure/MetaProperty/lowerBound"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/structure/MetaProperty/upperBound"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaClassifier">
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/structure/MetaClassifier/abstract"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/structure/MetaClass">
+          <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//foundation/structure/MetaClass/ownedProperties"/>
+        </genClasses>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="Relationship" disposableProviderFactory="true" ecorePackage="language.ecore#//foundation/relationship">
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/relationship/MetaRelationship">
+          <genFeatures notify="false" createChild="false" propertySortChoices="true"
+              ecoreFeature="ecore:EReference language.ecore#//foundation/relationship/MetaRelationship/source"/>
+          <genFeatures notify="false" createChild="false" propertySortChoices="true"
+              ecoreFeature="ecore:EReference language.ecore#//foundation/relationship/MetaRelationship/target"/>
+        </genClasses>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/relationship/MetaInheritance"/>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="Datatype" disposableProviderFactory="true" ecorePackage="language.ecore#//foundation/datatype">
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/datatype/MetaDataType"/>
+        <genClasses image="false" ecoreClass="language.ecore#//foundation/datatype/MetaText">
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/datatype/MetaText/minLength"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/datatype/MetaText/maxLength"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/datatype/MetaText/length"/>
+          <genFeatures createChild="false" ecoreFeature="ecore:EAttribute language.ecore#//foundation/datatype/MetaText/pattern"/>
+        </genClasses>
+      </nestedGenPackages>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Architecture" disposableProviderFactory="true" ecorePackage="language.ecore#//architecture">
+      <nestedGenPackages prefix="Information" disposableProviderFactory="true" ecorePackage="language.ecore#//architecture/information">
+        <genClasses ecoreClass="language.ecore#//architecture/information/Domain"/>
+        <genClasses ecoreClass="language.ecore#//architecture/information/SubDomain"/>
+        <genClasses ecoreClass="language.ecore#//architecture/information/Concept"/>
+        <genClasses ecoreClass="language.ecore#//architecture/information/Entity">
+          <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//architecture/information/Entity/extension"/>
+        </genClasses>
+        <genClasses ecoreClass="language.ecore#//architecture/information/Attribute"/>
+        <genClasses ecoreClass="language.ecore#//architecture/information/Extension"/>
+      </nestedGenPackages>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Business" disposableProviderFactory="true" ecorePackage="language.ecore#//business">
+      <nestedGenPackages prefix="Financial" disposableProviderFactory="true" ecorePackage="language.ecore#//business/financial">
+        <nestedGenPackages prefix="Product" disposableProviderFactory="true" ecorePackage="language.ecore#//business/financial/product">
+          <genClasses ecoreClass="language.ecore#//business/financial/product/FinancialProduct">
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/tradeLegs"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/options"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/triggers"/>
+          </genClasses>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/TradeLeg">
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/TradeLeg/flows"/>
+          </genClasses>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/Option"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/Trigger"/>
+          <genClasses image="false" ecoreClass="language.ecore#//business/financial/product/Flow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/CashFlow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/CommodityFlow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductModel"/>
+        </nestedGenPackages>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="BusinessEntity" disposableProviderFactory="true"
+          ecorePackage="language.ecore#//business/businessEntity">
+        <genClasses image="false" ecoreClass="language.ecore#//business/businessEntity/BusinessEntity"/>
+        <genClasses ecoreClass="language.ecore#//business/businessEntity/Organisation"/>
+        <genClasses ecoreClass="language.ecore#//business/businessEntity/Person"/>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>
