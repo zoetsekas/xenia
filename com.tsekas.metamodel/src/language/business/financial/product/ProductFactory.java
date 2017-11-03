@@ -76,13 +76,22 @@ public interface ProductFactory extends EFactory {
 	CommodityFlow createCommodityFlow();
 
 	/**
-	 * Returns a new object of class '<em>Model</em>'.
+	 * Returns a new object of class '<em>Domain</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Model</em>'.
+	 * @return a new object of class '<em>Domain</em>'.
 	 * @generated
 	 */
-	ProductModel createProductModel();
+	ProductDomain createProductDomain();
+
+	/**
+	 * Returns a new object of class '<em>Sub Domain</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Sub Domain</em>'.
+	 * @generated
+	 */
+	ProductSubDomain createProductSubDomain();
 
 	/**
 	 * Returns the package supported by this factory.

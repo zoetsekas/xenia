@@ -210,26 +210,49 @@ public class ProductItemProviderAdapterFactory extends ProductAdapterFactory imp
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link language.business.financial.product.ProductModel} instances.
+	 * This keeps track of the one adapter used for all {@link language.business.financial.product.ProductDomain} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ProductModelItemProvider productModelItemProvider;
+	protected ProductDomainItemProvider productDomainItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link language.business.financial.product.ProductModel}.
+	 * This creates an adapter for a {@link language.business.financial.product.ProductDomain}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createProductModelAdapter() {
-		if (productModelItemProvider == null) {
-			productModelItemProvider = new ProductModelItemProvider(this);
+	public Adapter createProductDomainAdapter() {
+		if (productDomainItemProvider == null) {
+			productDomainItemProvider = new ProductDomainItemProvider(this);
 		}
 
-		return productModelItemProvider;
+		return productDomainItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link language.business.financial.product.ProductSubDomain} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ProductSubDomainItemProvider productSubDomainItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link language.business.financial.product.ProductSubDomain}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createProductSubDomainAdapter() {
+		if (productSubDomainItemProvider == null) {
+			productSubDomainItemProvider = new ProductSubDomainItemProvider(this);
+		}
+
+		return productSubDomainItemProvider;
 	}
 
 	/**
@@ -337,7 +360,8 @@ public class ProductItemProviderAdapterFactory extends ProductAdapterFactory imp
 		if (triggerItemProvider != null) triggerItemProvider.dispose();
 		if (cashFlowItemProvider != null) cashFlowItemProvider.dispose();
 		if (commodityFlowItemProvider != null) commodityFlowItemProvider.dispose();
-		if (productModelItemProvider != null) productModelItemProvider.dispose();
+		if (productDomainItemProvider != null) productDomainItemProvider.dispose();
+		if (productSubDomainItemProvider != null) productSubDomainItemProvider.dispose();
 	}
 
 }

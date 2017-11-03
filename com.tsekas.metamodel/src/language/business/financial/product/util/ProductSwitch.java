@@ -6,6 +6,7 @@ import language.architecture.information.Concept;
 import language.architecture.information.Domain;
 import language.architecture.information.Entity;
 
+import language.architecture.information.SubDomain;
 import language.business.financial.product.*;
 
 import language.foundation.structure.MetaClass;
@@ -13,6 +14,7 @@ import language.foundation.structure.MetaClassifier;
 import language.foundation.structure.MetaElement;
 import language.foundation.structure.MetaModel;
 import language.foundation.structure.MetaNamedElement;
+import language.foundation.structure.MetaPackage;
 import language.foundation.structure.MetaPackageableElement;
 import language.foundation.structure.MetaTypedElement;
 
@@ -178,13 +180,25 @@ public class ProductSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
-			case ProductPackage.PRODUCT_MODEL: {
-				ProductModel productModel = (ProductModel)theEObject;
-				T result = caseProductModel(productModel);
-				if (result == null) result = caseDomain(productModel);
-				if (result == null) result = caseMetaModel(productModel);
-				if (result == null) result = caseMetaNamedElement(productModel);
-				if (result == null) result = caseMetaElement(productModel);
+			case ProductPackage.PRODUCT_DOMAIN: {
+				ProductDomain productDomain = (ProductDomain)theEObject;
+				T result = caseProductDomain(productDomain);
+				if (result == null) result = caseDomain(productDomain);
+				if (result == null) result = caseMetaModel(productDomain);
+				if (result == null) result = caseMetaNamedElement(productDomain);
+				if (result == null) result = caseMetaElement(productDomain);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case ProductPackage.PRODUCT_SUB_DOMAIN: {
+				ProductSubDomain productSubDomain = (ProductSubDomain)theEObject;
+				T result = caseProductSubDomain(productSubDomain);
+				if (result == null) result = caseSubDomain(productSubDomain);
+				if (result == null) result = caseMetaPackage(productSubDomain);
+				if (result == null) result = caseMetaModel(productSubDomain);
+				if (result == null) result = caseMetaPackageableElement(productSubDomain);
+				if (result == null) result = caseMetaNamedElement(productSubDomain);
+				if (result == null) result = caseMetaElement(productSubDomain);
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
@@ -298,17 +312,32 @@ public class ProductSwitch<T> extends Switch<T> {
 	}
 
 	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Model</em>'.
+	 * Returns the result of interpreting the object as an instance of '<em>Domain</em>'.
 	 * <!-- begin-user-doc -->
 	 * This implementation returns null;
 	 * returning a non-null result will terminate the switch.
 	 * <!-- end-user-doc -->
 	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Model</em>'.
+	 * @return the result of interpreting the object as an instance of '<em>Domain</em>'.
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProductModel(ProductModel object) {
+	public T caseProductDomain(ProductDomain object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Sub Domain</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Sub Domain</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseProductSubDomain(ProductSubDomain object) {
 		return null;
 	}
 
@@ -459,6 +488,36 @@ public class ProductSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseDomain(Domain object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Meta Package</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Meta Package</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMetaPackage(MetaPackage object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Sub Domain</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Sub Domain</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSubDomain(SubDomain object) {
 		return null;
 	}
 

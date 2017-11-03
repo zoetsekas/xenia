@@ -183,6 +183,11 @@ public class MetaModelItemProvider extends MetaNamedElementItemProvider {
 		newChildDescriptors.add
 			(createChildParameter
 				(StructurePackage.Literals.META_MODEL__PACKAGED_ELEMENTS,
+				 ProductFactory.eINSTANCE.createProductSubDomain()));
+
+		newChildDescriptors.add
+			(createChildParameter
+				(StructurePackage.Literals.META_MODEL__PACKAGED_ELEMENTS,
 				 BusinessEntityFactory.eINSTANCE.createOrganisation()));
 
 		newChildDescriptors.add

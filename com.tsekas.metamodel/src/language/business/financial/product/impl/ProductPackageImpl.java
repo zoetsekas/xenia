@@ -15,9 +15,10 @@ import language.business.financial.product.CommodityFlow;
 import language.business.financial.product.FinancialProduct;
 import language.business.financial.product.Flow;
 import language.business.financial.product.Option;
+import language.business.financial.product.ProductDomain;
 import language.business.financial.product.ProductFactory;
-import language.business.financial.product.ProductModel;
 import language.business.financial.product.ProductPackage;
+import language.business.financial.product.ProductSubDomain;
 import language.business.financial.product.TradeLeg;
 import language.business.financial.product.Trigger;
 
@@ -100,7 +101,14 @@ public class ProductPackageImpl extends EPackageImpl implements ProductPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass productModelEClass = null;
+	private EClass productDomainEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass productSubDomainEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -284,8 +292,17 @@ public class ProductPackageImpl extends EPackageImpl implements ProductPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getProductModel() {
-		return productModelEClass;
+	public EClass getProductDomain() {
+		return productDomainEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getProductSubDomain() {
+		return productSubDomainEClass;
 	}
 
 	/**
@@ -334,7 +351,9 @@ public class ProductPackageImpl extends EPackageImpl implements ProductPackage {
 
 		commodityFlowEClass = createEClass(COMMODITY_FLOW);
 
-		productModelEClass = createEClass(PRODUCT_MODEL);
+		productDomainEClass = createEClass(PRODUCT_DOMAIN);
+
+		productSubDomainEClass = createEClass(PRODUCT_SUB_DOMAIN);
 	}
 
 	/**
@@ -375,7 +394,8 @@ public class ProductPackageImpl extends EPackageImpl implements ProductPackage {
 		flowEClass.getESuperTypes().add(theInformationPackage.getEntity());
 		cashFlowEClass.getESuperTypes().add(this.getFlow());
 		commodityFlowEClass.getESuperTypes().add(this.getFlow());
-		productModelEClass.getESuperTypes().add(theInformationPackage.getDomain());
+		productDomainEClass.getESuperTypes().add(theInformationPackage.getDomain());
+		productSubDomainEClass.getESuperTypes().add(theInformationPackage.getSubDomain());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(financialProductEClass, FinancialProduct.class, "FinancialProduct", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -396,7 +416,9 @@ public class ProductPackageImpl extends EPackageImpl implements ProductPackage {
 
 		initEClass(commodityFlowEClass, CommodityFlow.class, "CommodityFlow", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
-		initEClass(productModelEClass, ProductModel.class, "ProductModel", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEClass(productDomainEClass, ProductDomain.class, "ProductDomain", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(productSubDomainEClass, ProductSubDomain.class, "ProductSubDomain", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		// Create resource
 		createResource(eNS_URI);

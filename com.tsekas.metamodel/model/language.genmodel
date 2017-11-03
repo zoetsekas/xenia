@@ -82,7 +82,8 @@
           <genClasses image="false" ecoreClass="language.ecore#//business/financial/product/Flow"/>
           <genClasses ecoreClass="language.ecore#//business/financial/product/CashFlow"/>
           <genClasses ecoreClass="language.ecore#//business/financial/product/CommodityFlow"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductModel"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductDomain"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductSubDomain"/>
         </nestedGenPackages>
       </nestedGenPackages>
       <nestedGenPackages prefix="BusinessEntity" disposableProviderFactory="true"

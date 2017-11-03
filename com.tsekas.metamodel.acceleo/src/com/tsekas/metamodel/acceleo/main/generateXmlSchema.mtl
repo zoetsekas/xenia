@@ -1,0 +1,28 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generateXmlSchema.
+ */]
+[module generateXmlSchema('http://zoe.tsekas.com/language/foundation/structure', 'http://zoe.tsekas.com/language/architecture/information', 'http://zoe.tsekas.com/language/foundation/datatype', 'http://zoe.tsekas.com/language/foundation/relationship')]
+
+
+[**
+ * The documentation of the template generateSchema.
+ * @param aDomain
+ */]
+[template public generateSchema(aDomain : Domain)]
+[comment @main/]
+[file (aDomain.name.toString() + '.xsd', false, 'UTF-8')]
+	[for (entity : Entity | aDomain.packagedElements->filter(Entity))]
+		[if (entity.oclIsTypeOf(Concept) = false)]
+			<xs:element name="[entity.name/]" type="[entity.name/]"/>
+		[/if]
+		<xs:complexType name="[entity.name/]">
+			<xs:sequence>
+				[for (attribute : Attribute | entity.ownedProperties->filter(Attribute))]
+					<xs:element name="[attribute.name/]"/>
+				[/for]
+			</xs:sequence>
+		</xs:complexType>
+	[/for]
+[/file]
+[/template]

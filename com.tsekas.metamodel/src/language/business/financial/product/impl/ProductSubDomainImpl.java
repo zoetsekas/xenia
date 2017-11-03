@@ -2,27 +2,27 @@
  */
 package language.business.financial.product.impl;
 
-import language.architecture.information.impl.DomainImpl;
+import language.architecture.information.impl.SubDomainImpl;
 
-import language.business.financial.product.ProductModel;
 import language.business.financial.product.ProductPackage;
+import language.business.financial.product.ProductSubDomain;
 
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>Model</b></em>'.
+ * An implementation of the model object '<em><b>Sub Domain</b></em>'.
  * <!-- end-user-doc -->
  *
  * @generated
  */
-public class ProductModelImpl extends DomainImpl implements ProductModel {
+public class ProductSubDomainImpl extends SubDomainImpl implements ProductSubDomain {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ProductModelImpl() {
+	protected ProductSubDomainImpl() {
 		super();
 	}
 
@@ -33,7 +33,7 @@ public class ProductModelImpl extends DomainImpl implements ProductModel {
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return ProductPackage.Literals.PRODUCT_MODEL;
+		return ProductPackage.Literals.PRODUCT_SUB_DOMAIN;
 	}
 
-} //ProductModelImpl
+} //ProductSubDomainImpl

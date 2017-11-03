@@ -669,14 +669,14 @@ public interface ProductPackage extends EPackage {
 
 
 	/**
-	 * The meta object id for the '{@link language.business.financial.product.impl.ProductModelImpl <em>Model</em>}' class.
+	 * The meta object id for the '{@link language.business.financial.product.impl.ProductDomainImpl <em>Domain</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see language.business.financial.product.impl.ProductModelImpl
-	 * @see language.business.financial.product.impl.ProductPackageImpl#getProductModel()
+	 * @see language.business.financial.product.impl.ProductDomainImpl
+	 * @see language.business.financial.product.impl.ProductPackageImpl#getProductDomain()
 	 * @generated
 	 */
-	int PRODUCT_MODEL = 7;
+	int PRODUCT_DOMAIN = 7;
 
 	/**
 	 * The feature id for the '<em><b>Identifier</b></em>' attribute.
@@ -685,7 +685,7 @@ public interface ProductPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL__IDENTIFIER = InformationPackage.DOMAIN__IDENTIFIER;
+	int PRODUCT_DOMAIN__IDENTIFIER = InformationPackage.DOMAIN__IDENTIFIER;
 
 	/**
 	 * The feature id for the '<em><b>Owner</b></em>' reference.
@@ -694,7 +694,7 @@ public interface ProductPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL__OWNER = InformationPackage.DOMAIN__OWNER;
+	int PRODUCT_DOMAIN__OWNER = InformationPackage.DOMAIN__OWNER;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -703,7 +703,7 @@ public interface ProductPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL__NAME = InformationPackage.DOMAIN__NAME;
+	int PRODUCT_DOMAIN__NAME = InformationPackage.DOMAIN__NAME;
 
 	/**
 	 * The feature id for the '<em><b>Packaged Elements</b></em>' containment reference list.
@@ -712,26 +712,89 @@ public interface ProductPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL__PACKAGED_ELEMENTS = InformationPackage.DOMAIN__PACKAGED_ELEMENTS;
+	int PRODUCT_DOMAIN__PACKAGED_ELEMENTS = InformationPackage.DOMAIN__PACKAGED_ELEMENTS;
 
 	/**
-	 * The number of structural features of the '<em>Model</em>' class.
+	 * The number of structural features of the '<em>Domain</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL_FEATURE_COUNT = InformationPackage.DOMAIN_FEATURE_COUNT + 0;
+	int PRODUCT_DOMAIN_FEATURE_COUNT = InformationPackage.DOMAIN_FEATURE_COUNT + 0;
 
 	/**
-	 * The number of operations of the '<em>Model</em>' class.
+	 * The number of operations of the '<em>Domain</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PRODUCT_MODEL_OPERATION_COUNT = InformationPackage.DOMAIN_OPERATION_COUNT + 0;
+	int PRODUCT_DOMAIN_OPERATION_COUNT = InformationPackage.DOMAIN_OPERATION_COUNT + 0;
 
+	/**
+	 * The meta object id for the '{@link language.business.financial.product.impl.ProductSubDomainImpl <em>Sub Domain</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see language.business.financial.product.impl.ProductSubDomainImpl
+	 * @see language.business.financial.product.impl.ProductPackageImpl#getProductSubDomain()
+	 * @generated
+	 */
+	int PRODUCT_SUB_DOMAIN = 8;
+
+	/**
+	 * The feature id for the '<em><b>Identifier</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN__IDENTIFIER = InformationPackage.SUB_DOMAIN__IDENTIFIER;
+
+	/**
+	 * The feature id for the '<em><b>Owner</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN__OWNER = InformationPackage.SUB_DOMAIN__OWNER;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN__NAME = InformationPackage.SUB_DOMAIN__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Packaged Elements</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN__PACKAGED_ELEMENTS = InformationPackage.SUB_DOMAIN__PACKAGED_ELEMENTS;
+
+	/**
+	 * The number of structural features of the '<em>Sub Domain</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN_FEATURE_COUNT = InformationPackage.SUB_DOMAIN_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Sub Domain</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PRODUCT_SUB_DOMAIN_OPERATION_COUNT = InformationPackage.SUB_DOMAIN_OPERATION_COUNT + 0;
 
 	/**
 	 * Returns the meta object for class '{@link language.business.financial.product.FinancialProduct <em>Financial Product</em>}'.
@@ -848,14 +911,24 @@ public interface ProductPackage extends EPackage {
 	EClass getCommodityFlow();
 
 	/**
-	 * Returns the meta object for class '{@link language.business.financial.product.ProductModel <em>Model</em>}'.
+	 * Returns the meta object for class '{@link language.business.financial.product.ProductDomain <em>Domain</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Model</em>'.
-	 * @see language.business.financial.product.ProductModel
+	 * @return the meta object for class '<em>Domain</em>'.
+	 * @see language.business.financial.product.ProductDomain
 	 * @generated
 	 */
-	EClass getProductModel();
+	EClass getProductDomain();
+
+	/**
+	 * Returns the meta object for class '{@link language.business.financial.product.ProductSubDomain <em>Sub Domain</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Sub Domain</em>'.
+	 * @see language.business.financial.product.ProductSubDomain
+	 * @generated
+	 */
+	EClass getProductSubDomain();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -983,14 +1056,24 @@ public interface ProductPackage extends EPackage {
 		EClass COMMODITY_FLOW = eINSTANCE.getCommodityFlow();
 
 		/**
-		 * The meta object literal for the '{@link language.business.financial.product.impl.ProductModelImpl <em>Model</em>}' class.
+		 * The meta object literal for the '{@link language.business.financial.product.impl.ProductDomainImpl <em>Domain</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see language.business.financial.product.impl.ProductModelImpl
-		 * @see language.business.financial.product.impl.ProductPackageImpl#getProductModel()
+		 * @see language.business.financial.product.impl.ProductDomainImpl
+		 * @see language.business.financial.product.impl.ProductPackageImpl#getProductDomain()
 		 * @generated
 		 */
-		EClass PRODUCT_MODEL = eINSTANCE.getProductModel();
+		EClass PRODUCT_DOMAIN = eINSTANCE.getProductDomain();
+
+		/**
+		 * The meta object literal for the '{@link language.business.financial.product.impl.ProductSubDomainImpl <em>Sub Domain</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see language.business.financial.product.impl.ProductSubDomainImpl
+		 * @see language.business.financial.product.impl.ProductPackageImpl#getProductSubDomain()
+		 * @generated
+		 */
+		EClass PRODUCT_SUB_DOMAIN = eINSTANCE.getProductSubDomain();
 
 	}
 

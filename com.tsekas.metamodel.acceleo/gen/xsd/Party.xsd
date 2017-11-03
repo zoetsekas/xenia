@@ -1,0 +1,12 @@
+			<xs:element name="Organisation" type="Organisation"/>
+		<xs:complexType name="Organisation">
+			<xs:sequence>
+					<xs:element name="Attribute"/>
+			</xs:sequence>
+		</xs:complexType>
+			<xs:element name="Individual" type="Individual"/>
+		<xs:complexType name="Individual">
+			<xs:sequence>
+					<xs:element name="Attribute"/>
+			</xs:sequence>
+		</xs:complexType>

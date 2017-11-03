@@ -101,7 +101,8 @@
         <eClassifiers xsi:type="ecore:EClass" name="Flow" abstract="true" eSuperTypes="#//architecture/information/Entity"/>
         <eClassifiers xsi:type="ecore:EClass" name="CashFlow" eSuperTypes="#//business/financial/product/Flow"/>
         <eClassifiers xsi:type="ecore:EClass" name="CommodityFlow" eSuperTypes="#//business/financial/product/Flow"/>
-        <eClassifiers xsi:type="ecore:EClass" name="ProductModel" eSuperTypes="#//architecture/information/Domain"/>
+        <eClassifiers xsi:type="ecore:EClass" name="ProductDomain" eSuperTypes="#//architecture/information/Domain"/>
+        <eClassifiers xsi:type="ecore:EClass" name="ProductSubDomain" eSuperTypes="#//architecture/information/SubDomain"/>
       </eSubpackages>
     </eSubpackages>
     <eSubpackages name="businessEntity" nsURI="http://zoe.tsekas.com/language/business/entity"

@@ -62,7 +62,8 @@ public class ProductFactoryImpl extends EFactoryImpl implements ProductFactory {
 			case ProductPackage.TRIGGER: return createTrigger();
 			case ProductPackage.CASH_FLOW: return createCashFlow();
 			case ProductPackage.COMMODITY_FLOW: return createCommodityFlow();
-			case ProductPackage.PRODUCT_MODEL: return createProductModel();
+			case ProductPackage.PRODUCT_DOMAIN: return createProductDomain();
+			case ProductPackage.PRODUCT_SUB_DOMAIN: return createProductSubDomain();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -133,9 +134,19 @@ public class ProductFactoryImpl extends EFactoryImpl implements ProductFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ProductModel createProductModel() {
-		ProductModelImpl productModel = new ProductModelImpl();
-		return productModel;
+	public ProductDomain createProductDomain() {
+		ProductDomainImpl productDomain = new ProductDomainImpl();
+		return productDomain;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ProductSubDomain createProductSubDomain() {
+		ProductSubDomainImpl productSubDomain = new ProductSubDomainImpl();
+		return productSubDomain;
 	}
 
 	/**

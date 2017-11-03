@@ -6,6 +6,7 @@ import language.architecture.information.Concept;
 import language.architecture.information.Domain;
 import language.architecture.information.Entity;
 
+import language.architecture.information.SubDomain;
 import language.business.financial.product.*;
 
 import language.foundation.structure.MetaClass;
@@ -13,6 +14,7 @@ import language.foundation.structure.MetaClassifier;
 import language.foundation.structure.MetaElement;
 import language.foundation.structure.MetaModel;
 import language.foundation.structure.MetaNamedElement;
+import language.foundation.structure.MetaPackage;
 import language.foundation.structure.MetaPackageableElement;
 import language.foundation.structure.MetaTypedElement;
 
@@ -108,8 +110,12 @@ public class ProductAdapterFactory extends AdapterFactoryImpl {
 				return createCommodityFlowAdapter();
 			}
 			@Override
-			public Adapter caseProductModel(ProductModel object) {
-				return createProductModelAdapter();
+			public Adapter caseProductDomain(ProductDomain object) {
+				return createProductDomainAdapter();
+			}
+			@Override
+			public Adapter caseProductSubDomain(ProductSubDomain object) {
+				return createProductSubDomainAdapter();
 			}
 			@Override
 			public Adapter caseMetaElement(MetaElement object) {
@@ -150,6 +156,14 @@ public class ProductAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseDomain(Domain object) {
 				return createDomainAdapter();
+			}
+			@Override
+			public Adapter caseMetaPackage(MetaPackage object) {
+				return createMetaPackageAdapter();
+			}
+			@Override
+			public Adapter caseSubDomain(SubDomain object) {
+				return createSubDomainAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -270,16 +284,30 @@ public class ProductAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link language.business.financial.product.ProductModel <em>Model</em>}'.
+	 * Creates a new adapter for an object of class '{@link language.business.financial.product.ProductDomain <em>Domain</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see language.business.financial.product.ProductModel
+	 * @see language.business.financial.product.ProductDomain
 	 * @generated
 	 */
-	public Adapter createProductModelAdapter() {
+	public Adapter createProductDomainAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link language.business.financial.product.ProductSubDomain <em>Sub Domain</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see language.business.financial.product.ProductSubDomain
+	 * @generated
+	 */
+	public Adapter createProductSubDomainAdapter() {
 		return null;
 	}
 
@@ -420,6 +448,34 @@ public class ProductAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createDomainAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link language.foundation.structure.MetaPackage <em>Meta Package</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see language.foundation.structure.MetaPackage
+	 * @generated
+	 */
+	public Adapter createMetaPackageAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link language.architecture.information.SubDomain <em>Sub Domain</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see language.architecture.information.SubDomain
+	 * @generated
+	 */
+	public Adapter createSubDomainAdapter() {
 		return null;
 	}
 
