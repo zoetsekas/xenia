@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information:Domain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:information="http://zoe.tsekas.com/language/architecture/information" identifier="123123123" name="Party">
+  <packagedElements xsi:type="information:Concept" owner="/" name="Party">
+    <ownedProperties xsi:type="information:Attribute" owner="//@packagedElements.0" name="Attribute"/>
+  </packagedElements>
+  <packagedElements xsi:type="information:Entity" owner="/" name="Organisation">
+    <ownedProperties xsi:type="information:Attribute" owner="//@packagedElements.1" name="Attribute" type="//@packagedElements.0"/>
+    <extension owner="//@packagedElements.1" name="Extension" source="//@packagedElements.1" target="//@packagedElements.0"/>
+  </packagedElements>
+  <packagedElements xsi:type="information:Entity" owner="/" name="Individual">
+    <ownedProperties xsi:type="information:Attribute" owner="//@packagedElements.2" name="Attribute"/>
+    <extension owner="//@packagedElements.2" name="Extension" source="//@packagedElements.2" target="//@packagedElements.0"/>
+  </packagedElements>
+  <packagedElements xsi:type="information:Entity" identifier="1d6edc76-a783-4a6a-9451-47b9a34736c4" owner="/" name="Entity">
+    <extension owner="//@packagedElements.3" name="Extension" source="//@packagedElements.3" target="//@packagedElements.4"/>
+  </packagedElements>
+  <packagedElements xsi:type="information:Concept" identifier="181ab905-b62d-4132-a00c-1e01594bcbff" owner="/" name="Concept"/>
+  <packagedElements xsi:type="information:Entity" identifier="392c8ca5-c34b-4d5f-84a9-5ca563d281dc" owner="/" name="Entity">
+    <extension owner="//@packagedElements.5" name="Extension" source="//@packagedElements.5" target="//@packagedElements.3"/>
+  </packagedElements>
+</information:Domain>
