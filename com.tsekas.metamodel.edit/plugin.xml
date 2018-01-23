@@ -62,7 +62,7 @@
       <!-- @generated language -->
       <factory
             uri="http://zoe.tsekas.com/language/business/financial/product"
-            class="language.business.financial.product.provider.ProductItemProviderAdapterFactory"
+            class="language.business.financial.financialProduct.provider.ProductItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider

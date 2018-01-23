@@ -11,11 +11,8 @@ import language.business.businessEntity.BusinessEntityFactory;
 import language.business.businessEntity.BusinessEntityPackage;
 import language.business.businessEntity.Organisation;
 import language.business.businessEntity.Person;
-
-import language.business.financial.product.ProductPackage;
-
-import language.business.financial.product.impl.ProductPackageImpl;
-
+import language.business.financial.financialProduct.ProductPackage;
+import language.business.financial.financialProduct.impl.ProductPackageImpl;
 import language.foundation.datatype.DatatypePackage;
 
 import language.foundation.datatype.impl.DatatypePackageImpl;

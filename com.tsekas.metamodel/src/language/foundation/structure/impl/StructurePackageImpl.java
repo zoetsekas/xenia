@@ -8,8 +8,8 @@ import language.architecture.information.impl.InformationPackageImpl;
 
 import language.business.businessEntity.BusinessEntityPackage;
 import language.business.businessEntity.impl.BusinessEntityPackageImpl;
-import language.business.financial.product.ProductPackage;
-import language.business.financial.product.impl.ProductPackageImpl;
+import language.business.financial.financialProduct.ProductPackage;
+import language.business.financial.financialProduct.impl.ProductPackageImpl;
 import language.foundation.datatype.DatatypePackage;
 
 import language.foundation.datatype.impl.DatatypePackageImpl;

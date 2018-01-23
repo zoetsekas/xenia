@@ -40,9 +40,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="language.business.financial.product.presentation.ProductModelWizardID"
+            id="language.business.financial.financialProduct.presentation.ProductModelWizardID"
             name="%_UI_ProductModelWizard_label"
-            class="language.business.financial.product.presentation.ProductModelWizard"
+            class="language.business.financial.financialProduct.presentation.ProductModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/ProductModelFile.gif">
          <description>%_UI_ProductModelWizard_description</description>
@@ -53,12 +53,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated language -->
       <editor
-            id="language.business.financial.product.presentation.ProductEditorID"
+            id="language.business.financial.financialProduct.presentation.ProductEditorID"
             name="%_UI_ProductEditor_label"
             icon="icons/full/obj16/ProductModelFile.gif"
-            extensions="product"
-            class="language.business.financial.product.presentation.ProductEditor"
-            contributorClass="language.business.financial.product.presentation.ProductActionBarContributor">
+            extensions="financialProduct"
+            class="language.business.financial.financialProduct.presentation.ProductEditor"
+            contributorClass="language.business.financial.financialProduct.presentation.ProductActionBarContributor">
       </editor>
    </extension>
 

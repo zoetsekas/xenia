@@ -10,6 +10,7 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: language.architecture.information.presentation,
  language.business.businessEntity.presentation,
+ language.business.financial.financialProduct.presentation,
  language.business.financial.product.presentation,
  language.foundation.structure.presentation
 Require-Bundle: org.eclipse.core.runtime,

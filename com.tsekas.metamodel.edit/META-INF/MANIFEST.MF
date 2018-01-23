@@ -10,6 +10,7 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: language.architecture.information.provider,
  language.business.businessEntity.provider,
+ language.business.financial.financialProduct.provider,
  language.business.financial.product.provider,
  language.foundation.datatype.provider,
  language.foundation.relationship.provider,

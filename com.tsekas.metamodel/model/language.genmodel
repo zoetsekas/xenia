@@ -68,22 +68,23 @@
     </nestedGenPackages>
     <nestedGenPackages prefix="Business" disposableProviderFactory="true" ecorePackage="language.ecore#//business">
       <nestedGenPackages prefix="Financial" disposableProviderFactory="true" ecorePackage="language.ecore#//business/financial">
-        <nestedGenPackages prefix="Product" disposableProviderFactory="true" ecorePackage="language.ecore#//business/financial/product">
-          <genClasses ecoreClass="language.ecore#//business/financial/product/FinancialProduct">
-            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/tradeLegs"/>
-            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/options"/>
-            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/FinancialProduct/triggers"/>
+        <nestedGenPackages prefix="Product" disposableProviderFactory="true" fileExtensions="financialProduct"
+            ecorePackage="language.ecore#//business/financial/financialProduct">
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/FinancialProduct">
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/financialProduct/FinancialProduct/tradeLegs"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/financialProduct/FinancialProduct/options"/>
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/financialProduct/FinancialProduct/triggers"/>
           </genClasses>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/TradeLeg">
-            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/product/TradeLeg/flows"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/TradeLeg">
+            <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/financialProduct/TradeLeg/flows"/>
           </genClasses>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/Option"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/Trigger"/>
-          <genClasses image="false" ecoreClass="language.ecore#//business/financial/product/Flow"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/CashFlow"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/CommodityFlow"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductDomain"/>
-          <genClasses ecoreClass="language.ecore#//business/financial/product/ProductSubDomain"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/Option"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/Trigger"/>
+          <genClasses image="false" ecoreClass="language.ecore#//business/financial/financialProduct/Flow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/CashFlow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/CommodityFlow"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/ProductDomain"/>
+          <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/ProductSubDomain"/>
         </nestedGenPackages>
       </nestedGenPackages>
       <nestedGenPackages prefix="BusinessEntity" disposableProviderFactory="true"

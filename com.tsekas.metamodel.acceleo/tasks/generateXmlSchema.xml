@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="generateXmlSchema" name="com.tsekas.metamodel.acceleo">
-    <property name="ECLIPSE_HOME" value="../../.."/>
-    <property name="ECLIPSE_WORKSPACE" value="../../../workspace"/>
+    <property name="ECLIPSE_HOME" value="../../../../../../Software/Obeo/designer/ObeoDesigner-Community"/>
+    <property name="ECLIPSE_WORKSPACE" value="../../../../../../Software/Obeo/designer/ObeoDesigner-Community/workspace"/>
 
     <!-- The classpath with only the dependencies used by the project -->
     <path id="com.tsekas.metamodel.acceleo.libraryclasspath">

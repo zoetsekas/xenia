@@ -9,9 +9,7 @@ import java.util.List;
 import language.architecture.information.InformationFactory;
 
 import language.business.businessEntity.BusinessEntityFactory;
-
-import language.business.financial.product.ProductFactory;
-
+import language.business.financial.financialProduct.ProductFactory;
 import language.foundation.structure.MetaModel;
 import language.foundation.structure.StructurePackage;
 

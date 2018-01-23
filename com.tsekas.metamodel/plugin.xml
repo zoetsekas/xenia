@@ -42,7 +42,7 @@
       <!-- @generated language -->
       <package
             uri="http://zoe.tsekas.com/language/business/financial/product"
-            class="language.business.financial.product.ProductPackage"
+            class="language.business.financial.financialProduct.ProductPackage"
             genModel="model/language.genmodel"/>
    </extension>
 

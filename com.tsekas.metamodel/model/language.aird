@@ -44,7 +44,7 @@
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_G521dcCVEeetMb0wg4LIUQ" name="product class diagram" repPath="#_G521cMCVEeetMb0wg4LIUQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-        <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/product"/>
+        <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_V9GgRcCXEeetMb0wg4LIUQ" name="party class diagram" repPath="#_V9GgQMCXEeetMb0wg4LIUQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
@@ -1695,8 +1695,8 @@
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_BGLmoMCVEeetMb0wg4LIUQ" name="product" width="24" height="16">
-      <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/product"/>
-      <semanticElements xmi:type="ecore:EPackage" href="language.ecore#//business/financial/product"/>
+      <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
+      <semanticElements xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_BGLmocCVEeetMb0wg4LIUQ" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']/@containerMappings[name='Dropped%20Package']/@style"/>
       </ownedStyle>
@@ -2006,8 +2006,8 @@
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_sjkBsMCVEeetMb0wg4LIUQ" name="FinancialProduct" tooltipText="" outgoingEdges="_zteDoMCVEeetMb0wg4LIUQ _12CSoMCVEeetMb0wg4LIUQ _5f5VQMCVEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/FinancialProduct"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/FinancialProduct"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/FinancialProduct"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/FinancialProduct"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_sjkBscCVEeetMb0wg4LIUQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -2041,8 +2041,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_trwY0MCVEeetMb0wg4LIUQ" name="TradeLeg" tooltipText="" outgoingEdges="_E5VSsMCWEeetMb0wg4LIUQ" incomingEdges="_zteDoMCVEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/TradeLeg"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/TradeLeg"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/TradeLeg"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/TradeLeg"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_trwY0cCVEeetMb0wg4LIUQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -2076,8 +2076,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_vO0uEMCVEeetMb0wg4LIUQ" name="Option" tooltipText="" incomingEdges="_12CSoMCVEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Option"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Option"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Option"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Option"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_vO0uEcCVEeetMb0wg4LIUQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -2111,8 +2111,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_xARdkMCVEeetMb0wg4LIUQ" name="Trigger" tooltipText="" incomingEdges="_5f5VQMCVEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Trigger"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Trigger"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Trigger"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Trigger"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_xARdkcCVEeetMb0wg4LIUQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -2146,8 +2146,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zteDoMCVEeetMb0wg4LIUQ" name="[0..*] tradeLegs" sourceNode="_sjkBsMCVEeetMb0wg4LIUQ" targetNode="_trwY0MCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/tradeLegs"/>
-      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/tradeLegs"/>
+      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/tradeLegs"/>
+      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/tradeLegs"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zteDpMCVEeetMb0wg4LIUQ" description="_zteDocCVEeetMb0wg4LIUQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zteDpcCVEeetMb0wg4LIUQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -2159,8 +2159,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_12CSoMCVEeetMb0wg4LIUQ" name="[0..*] options" sourceNode="_sjkBsMCVEeetMb0wg4LIUQ" targetNode="_vO0uEMCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/options"/>
-      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/options"/>
+      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/options"/>
+      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/options"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_12CSocCVEeetMb0wg4LIUQ" description="_zteDocCVEeetMb0wg4LIUQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_12CSosCVEeetMb0wg4LIUQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -2172,8 +2172,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_5f5VQMCVEeetMb0wg4LIUQ" name="[0..*] triggers" sourceNode="_sjkBsMCVEeetMb0wg4LIUQ" targetNode="_xARdkMCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/triggers"/>
-      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/FinancialProduct/triggers"/>
+      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/triggers"/>
+      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/FinancialProduct/triggers"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_5f_b4MCVEeetMb0wg4LIUQ" description="_zteDocCVEeetMb0wg4LIUQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_5f_b4cCVEeetMb0wg4LIUQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -2185,8 +2185,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_7f0loMCVEeetMb0wg4LIUQ" name="Flow" tooltipText="" incomingEdges="_BIjIsMCWEeetMb0wg4LIUQ _BkO_IMCWEeetMb0wg4LIUQ _E5VSsMCWEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Flow"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/Flow"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Flow"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/Flow"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_8lcJ4MCVEeetMb0wg4LIUQ" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_abstract.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
         <labelFormat>italic</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@conditionnalStyles.1/@style"/>
@@ -2221,8 +2221,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9MoswMCVEeetMb0wg4LIUQ" name="CashFlow" tooltipText="" outgoingEdges="_BkO_IMCWEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CashFlow"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CashFlow"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CashFlow"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CashFlow"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2259,8 +2259,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__DYzAMCVEeetMb0wg4LIUQ" name="CommodityFlow" tooltipText="" outgoingEdges="_BIjIsMCWEeetMb0wg4LIUQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CommodityFlow"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CommodityFlow"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CommodityFlow"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CommodityFlow"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2297,8 +2297,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BIjIsMCWEeetMb0wg4LIUQ" sourceNode="__DYzAMCVEeetMb0wg4LIUQ" targetNode="_7f0loMCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CommodityFlow"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CommodityFlow"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CommodityFlow"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CommodityFlow"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BIjIscCWEeetMb0wg4LIUQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_BIjIssCWEeetMb0wg4LIUQ" showIcon="false">
@@ -2309,8 +2309,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BkO_IMCWEeetMb0wg4LIUQ" sourceNode="_9MoswMCVEeetMb0wg4LIUQ" targetNode="_7f0loMCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CashFlow"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/CashFlow"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CashFlow"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/CashFlow"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BkPmMMCWEeetMb0wg4LIUQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_BkPmMcCWEeetMb0wg4LIUQ" showIcon="false">
@@ -2321,8 +2321,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_E5VSsMCWEeetMb0wg4LIUQ" name="[0..*] flows" sourceNode="_trwY0MCVEeetMb0wg4LIUQ" targetNode="_7f0loMCVEeetMb0wg4LIUQ">
-      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/TradeLeg/flows"/>
-      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/product/TradeLeg/flows"/>
+      <target xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/TradeLeg/flows"/>
+      <semanticElements xmi:type="ecore:EReference" href="language.ecore#//business/financial/financialProduct/TradeLeg/flows"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_E5VSscCWEeetMb0wg4LIUQ" description="_zteDocCVEeetMb0wg4LIUQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_E5VSssCWEeetMb0wg4LIUQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
@@ -2334,8 +2334,8 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_QkBQ0MCZEeetMb0wg4LIUQ" name="ProductDomain" tooltipText="" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/ProductDomain"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/ProductDomain"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/ProductDomain"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/ProductDomain"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2363,8 +2363,8 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_AUZqwMCdEeeDc9lttyedPg" name="ProductSubDomain" tooltipText="" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/ProductSubDomain"/>
-      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/product/ProductSubDomain"/>
+      <target xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/ProductSubDomain"/>
+      <semanticElements xmi:type="ecore:EClass" href="language.ecore#//business/financial/financialProduct/ProductSubDomain"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_AUbf8MCdEeeDc9lttyedPg" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -2393,7 +2393,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
-    <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/product"/>
+    <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram xmi:id="_V9GgQMCXEeetMb0wg4LIUQ" name="party class diagram">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_V9GgQcCXEeetMb0wg4LIUQ" source="DANNOTATION_CUSTOMIZATION_KEY">

@@ -157,9 +157,7 @@ import org.eclipse.emf.edit.ui.view.ExtendedPropertySheetPage;
 import language.architecture.information.provider.InformationItemProviderAdapterFactory;
 
 import language.business.businessEntity.provider.BusinessEntityItemProviderAdapterFactory;
-
-import language.business.financial.product.provider.ProductItemProviderAdapterFactory;
-
+import language.business.financial.financialProduct.provider.ProductItemProviderAdapterFactory;
 import language.foundation.datatype.provider.DatatypeItemProviderAdapterFactory;
 
 import language.foundation.relationship.provider.RelationshipItemProviderAdapterFactory;

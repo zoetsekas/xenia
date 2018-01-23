@@ -9,6 +9,7 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: language.architecture.information.tests,
  language.business.businessEntity.tests,
+ language.business.financial.financialProduct.tests,
  language.business.financial.product.tests,
  language.foundation.datatype.tests,
  language.foundation.relationship.tests,

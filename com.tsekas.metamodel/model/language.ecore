@@ -82,25 +82,25 @@
   <eSubpackages name="business" nsURI="http://zoe.tsekas.com/language/business" nsPrefix="business">
     <eSubpackages name="financial" nsURI="http://zoe.tsekas.com/language/business/financial"
         nsPrefix="financial">
-      <eSubpackages name="product" nsURI="http://zoe.tsekas.com/language/business/financial/product"
-          nsPrefix="product">
+      <eSubpackages name="financialProduct" nsURI="http://zoe.tsekas.com/language/business/financial/product"
+          nsPrefix="financialProduct">
         <eClassifiers xsi:type="ecore:EClass" name="FinancialProduct" eSuperTypes="#//architecture/information/Entity">
           <eStructuralFeatures xsi:type="ecore:EReference" name="tradeLegs" upperBound="-1"
-              eType="#//business/financial/product/TradeLeg" containment="true"/>
+              eType="#//business/financial/financialProduct/TradeLeg" containment="true"/>
           <eStructuralFeatures xsi:type="ecore:EReference" name="options" upperBound="-1"
-              eType="#//business/financial/product/Option" containment="true"/>
+              eType="#//business/financial/financialProduct/Option" containment="true"/>
           <eStructuralFeatures xsi:type="ecore:EReference" name="triggers" upperBound="-1"
-              eType="#//business/financial/product/Trigger" containment="true"/>
+              eType="#//business/financial/financialProduct/Trigger" containment="true"/>
         </eClassifiers>
         <eClassifiers xsi:type="ecore:EClass" name="TradeLeg" eSuperTypes="#//architecture/information/Entity">
           <eStructuralFeatures xsi:type="ecore:EReference" name="flows" upperBound="-1"
-              eType="#//business/financial/product/Flow" containment="true"/>
+              eType="#//business/financial/financialProduct/Flow" containment="true"/>
         </eClassifiers>
         <eClassifiers xsi:type="ecore:EClass" name="Option" eSuperTypes="#//architecture/information/Entity"/>
         <eClassifiers xsi:type="ecore:EClass" name="Trigger" eSuperTypes="#//architecture/information/Entity"/>
         <eClassifiers xsi:type="ecore:EClass" name="Flow" abstract="true" eSuperTypes="#//architecture/information/Entity"/>
-        <eClassifiers xsi:type="ecore:EClass" name="CashFlow" eSuperTypes="#//business/financial/product/Flow"/>
-        <eClassifiers xsi:type="ecore:EClass" name="CommodityFlow" eSuperTypes="#//business/financial/product/Flow"/>
+        <eClassifiers xsi:type="ecore:EClass" name="CashFlow" eSuperTypes="#//business/financial/financialProduct/Flow"/>
+        <eClassifiers xsi:type="ecore:EClass" name="CommodityFlow" eSuperTypes="#//business/financial/financialProduct/Flow"/>
         <eClassifiers xsi:type="ecore:EClass" name="ProductDomain" eSuperTypes="#//architecture/information/Domain"/>
         <eClassifiers xsi:type="ecore:EClass" name="ProductSubDomain" eSuperTypes="#//architecture/information/SubDomain"/>
       </eSubpackages>
