@@ -14,8 +14,13 @@
   <packagedElements xsi:type="information:Entity" identifier="1d6edc76-a783-4a6a-9451-47b9a34736c4" owner="/" name="Entity">
     <extension owner="//@packagedElements.3" name="Extension" source="//@packagedElements.3" target="//@packagedElements.4"/>
   </packagedElements>
-  <packagedElements xsi:type="information:Concept" identifier="181ab905-b62d-4132-a00c-1e01594bcbff" owner="/" name="Concept"/>
+  <packagedElements xsi:type="information:Concept" identifier="181ab905-b62d-4132-a00c-1e01594bcbff" owner="/" name="Concept">
+    <ownedProperties xsi:type="information:Attribute" identifier="5fa8404f-2642-40f7-8d14-e19aab2cf027" owner="//@packagedElements.4" name="Attribute"/>
+  </packagedElements>
   <packagedElements xsi:type="information:Entity" identifier="392c8ca5-c34b-4d5f-84a9-5ca563d281dc" owner="/" name="Entity">
     <extension owner="//@packagedElements.5" name="Extension" source="//@packagedElements.5" target="//@packagedElements.3"/>
+  </packagedElements>
+  <packagedElements xsi:type="information:Entity" identifier="6d25cb8f-e60b-4a77-899f-c61fc546a443" owner="/" name="Entity">
+    <ownedProperties xsi:type="information:Attribute" identifier="9c38fcf4-155f-4a68-9930-07e4efcec3e3" owner="//@packagedElements.6" name="Attribute"/>
   </packagedElements>
 </information:Domain>

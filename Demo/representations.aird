@@ -38,6 +38,10 @@
         <children xmi:type="notation:Node" xmi:id="_iUKB4MCqEeepnZROVvMnvA" type="2003" element="_iT-bsMCqEeepnZROVvMnvA">
           <children xmi:type="notation:Node" xmi:id="_iUKo8MCqEeepnZROVvMnvA" type="5007"/>
           <children xmi:type="notation:Node" xmi:id="_iUKo8cCqEeepnZROVvMnvA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_VuhL4AB4EeiMEvyqcZJASA" type="3010" element="_VuSiYAB4EeiMEvyqcZJASA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VuhL4QB4EeiMEvyqcZJASA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VuhL4gB4EeiMEvyqcZJASA"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_iUKo8sCqEeepnZROVvMnvA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_iUKo88CqEeepnZROVvMnvA"/>
           </children>
@@ -52,6 +56,19 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_DV6LkcCrEeepnZROVvMnvA" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DV6LksCrEeepnZROVvMnvA" x="648" y="312"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_J86mEAB4EeiMEvyqcZJASA" type="2003" element="_J8cE8AB4EeiMEvyqcZJASA">
+          <children xmi:type="notation:Node" xmi:id="_J8_ekAB4EeiMEvyqcZJASA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_J9AssAB4EeiMEvyqcZJASA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_KaCm8AB4EeiMEvyqcZJASA" type="3010" element="_KZemQAB4EeiMEvyqcZJASA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_KaCm8QB4EeiMEvyqcZJASA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KaCm8gB4EeiMEvyqcZJASA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_J9AssQB4EeiMEvyqcZJASA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_J9AssgB4EeiMEvyqcZJASA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J86mEQB4EeiMEvyqcZJASA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J86mEgB4EeiMEvyqcZJASA" x="756" y="60" width="171" height="123"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_77D3oryZEeegs8aTbjHAsQ"/>
       </data>
@@ -71,6 +88,14 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='ConceptContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='ConceptContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VuSiYAB4EeiMEvyqcZJASA" name="Attribute">
+        <target xmi:type="information:Attribute" href="party.information#//@packagedElements.4/@ownedProperties.0"/>
+        <semanticElements xmi:type="information:Attribute" href="party.information#//@packagedElements.4/@ownedProperties.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VuTJcAB4EeiMEvyqcZJASA" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+      </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_DVsJIMCrEeepnZROVvMnvA" name="Entity">
       <target xmi:type="information:Entity" href="party.information#//@packagedElements.5"/>
@@ -79,6 +104,25 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='EntityContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='EntityContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_J8cE8AB4EeiMEvyqcZJASA" name="Entity">
+      <target xmi:type="information:Entity" href="party.information#//@packagedElements.6"/>
+      <semanticElements xmi:type="information:Entity" href="party.information#//@packagedElements.6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_J8csAAB4EeiMEvyqcZJASA" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='EntityContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@containerMappings[name='EntityContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KZemQAB4EeiMEvyqcZJASA" name="Attribute">
+        <target xmi:type="information:Attribute" href="party.information#//@packagedElements.6/@ownedProperties.0"/>
+        <semanticElements xmi:type="information:Attribute" href="party.information#//@packagedElements.6/@ownedProperties.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_KZkF0AB4EeiMEvyqcZJASA" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+      </ownedElements>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/com.tsekas.metamodel.eclipse.ui/description/metamodel.odesign#//@ownedViewpoints[name='MetaModelViewpoint']/@ownedRepresentations[name='InformationDiagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_74-0BLyZEeegs8aTbjHAsQ"/>
