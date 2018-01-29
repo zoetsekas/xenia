@@ -7,9 +7,15 @@
    </configIni>
 
    <launcherArgs>
+      <vmArgs>-d64 
+-Xms512m 
+-Xmx4g
+      </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
+
+   <windowImages/>
 
    <launcher name="metamodel">
       <win useIco="false">
@@ -18,7 +24,6 @@
    </launcher>
 
    <vm>
-      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
 
    <plugins>
@@ -27,6 +32,9 @@
    <features>
       <feature id="com.tsekas.metamodel.feature"/>
       <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.egit" version="4.9.2.201712150930-r"/>
+      <feature id="org.eclipse.emf.compare.egit" version="1.2.2.201709090201"/>
+      <feature id="org.eclipse.jgit" version="4.9.2.201712150930-r"/>
    </features>
 
    <configurations>
@@ -36,5 +44,12 @@
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>

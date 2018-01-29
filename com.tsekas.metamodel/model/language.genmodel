@@ -64,11 +64,13 @@
         </genClasses>
         <genClasses ecoreClass="language.ecore#//architecture/information/Attribute"/>
         <genClasses ecoreClass="language.ecore#//architecture/information/Extension"/>
+        <genClasses image="false" ecoreClass="language.ecore#//architecture/information/NewInterface7"/>
+        <genClasses ecoreClass="language.ecore#//architecture/information/NewEClass8"/>
       </nestedGenPackages>
     </nestedGenPackages>
     <nestedGenPackages prefix="Business" disposableProviderFactory="true" ecorePackage="language.ecore#//business">
       <nestedGenPackages prefix="Financial" disposableProviderFactory="true" ecorePackage="language.ecore#//business/financial">
-        <nestedGenPackages prefix="Product" disposableProviderFactory="true" fileExtensions="financialProduct"
+        <nestedGenPackages prefix="FinancialProduct" disposableProviderFactory="true"
             ecorePackage="language.ecore#//business/financial/financialProduct">
           <genClasses ecoreClass="language.ecore#//business/financial/financialProduct/FinancialProduct">
             <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference language.ecore#//business/financial/financialProduct/FinancialProduct/tradeLegs"/>

@@ -8,7 +8,7 @@
   <properties>
   <tycho.version>1.0.0</tycho.version>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  <neon-repo.url>http://download.eclipse.org/releases/oxygen</neon-repo.url>
+  <eclipse-oxygen-repo.url>http://download.eclipse.org/releases/oxygen</eclipse-oxygen-repo.url>
 </properties>
 
 <build>
@@ -31,6 +31,11 @@
             <ws>win32</ws>
             <arch>x86</arch>
           </environment>
+          <environment>
+	       <os>win32</os>
+	       <ws>win32</ws>
+	       <arch>x86_64</arch>
+	      </environment>
         </environments>
       </configuration>
     </plugin>
@@ -39,7 +44,7 @@
 <repositories>
   <repository>
     <id>eclipse-repo</id>
-    <url>${neon-repo.url}</url>
+    <url>${eclipse-oxygen-repo.url}</url>
     <layout>p2</layout>
   </repository>
 </repositories>
@@ -50,5 +55,8 @@
 		<module>../metamodel.product</module>
 		<module>../com.tsekas.metamodel.feature</module>
 		<module>../com.tsekas.metamodel.acceleo</module>
+		<module>
+			../../../eclipse-workspace/com.tsekas.metamodel.ui
+		</module>
 	</modules>
 </project>

@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_kAs0cLySEeethoQJP8Jpig" selectedViews="_kTJ2YLySEeethoQJP8Jpig" version="12.0.0.201704271200">
+  <viewpoint:DAnalysis xmi:id="_kAs0cLySEeethoQJP8Jpig" selectedViews="_kTJ2YLySEeethoQJP8Jpig" version="12.1.0.201708031200">
     <semanticResources>language.ecore</semanticResources>
     <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
     <semanticResources>language.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_kTJ2YLySEeethoQJP8Jpig">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_kktgcLySEeethoQJP8Jpig" name="language" repPath="#_kkjvcLySEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_kktgcLySEeethoQJP8Jpig" name="language" repPath="#_pmHGgAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_v_TUdbySEeethoQJP8Jpig" name="foundation class diagram" repPath="#_v_TUcLySEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_v_TUdbySEeethoQJP8Jpig" name="foundation class diagram" repPath="#_pozOIAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//foundation"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_-fNTlbySEeethoQJP8Jpig" name="structure class diagram" repPath="#_-fNTkLySEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_-fNTlbySEeethoQJP8Jpig" name="structure class diagram" repPath="#_ppApgAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/structure"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ZaBexbyUEeethoQJP8Jpig" name="relationship class diagram" repPath="#_ZaBewLyUEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ZaBexbyUEeethoQJP8Jpig" name="relationship class diagram" repPath="#_prANkAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/relationship"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_SJT0xbyVEeethoQJP8Jpig" name="datatype class diagram" repPath="#_SJT0wLyVEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_SJT0xbyVEeethoQJP8Jpig" name="datatype class diagram" repPath="#_pradQAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/datatype"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_s8rJlbyVEeethoQJP8Jpig" name="architecture class diagram" repPath="#_s8rJkLyVEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_s8rJlbyVEeethoQJP8Jpig" name="architecture class diagram" repPath="#_prvNYAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//architecture"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_xvexRbyVEeethoQJP8Jpig" name="information class diagram" repPath="#_xvexQLyVEeethoQJP8Jpig">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_xvexRbyVEeethoQJP8Jpig" name="information class diagram" repPath="#_prxpoAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//architecture/information"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_s9MfJcCUEeetMb0wg4LIUQ" name="business class diagram" repPath="#_s9MfIMCUEeetMb0wg4LIUQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_s9MfJcCUEeetMb0wg4LIUQ" name="business class diagram" repPath="#_psbJ4AObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//business"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_AQ6ylMCVEeetMb0wg4LIUQ" name="financial class diagram" repPath="#_AQ0r8MCVEeetMb0wg4LIUQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_AQ6ylMCVEeetMb0wg4LIUQ" name="financial class diagram" repPath="#_pseNMAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_G521dcCVEeetMb0wg4LIUQ" name="product class diagram" repPath="#_G521cMCVEeetMb0wg4LIUQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_G521dcCVEeetMb0wg4LIUQ" name="product class diagram" repPath="#_psgCYAObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_V9GgRcCXEeetMb0wg4LIUQ" name="party class diagram" repPath="#_V9GgQMCXEeetMb0wg4LIUQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_V9GgRcCXEeetMb0wg4LIUQ" name="party class diagram" repPath="#_ptoq0AObEeiznLB9aHdJZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="language.ecore#//business/businessEntity"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_kkjvcLySEeethoQJP8Jpig" name="language">
+  <diagram:DSemanticDiagram xmi:id="_kkjvcLySEeethoQJP8Jpig" name="language" uid="_pmHGgAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_kkjvcbySEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_kkjvcrySEeethoQJP8Jpig"/>
     </ownedAnnotationEntries>
@@ -119,7 +119,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_v_TUcLySEeethoQJP8Jpig" name="foundation class diagram">
+  <diagram:DSemanticDiagram xmi:id="_v_TUcLySEeethoQJP8Jpig" name="foundation class diagram" uid="_pozOIAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_v_TUcbySEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_v_TUcrySEeethoQJP8Jpig"/>
     </ownedAnnotationEntries>
@@ -195,7 +195,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//foundation"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_-fNTkLySEeethoQJP8Jpig" name="structure class diagram">
+  <diagram:DSemanticDiagram xmi:id="_-fNTkLySEeethoQJP8Jpig" name="structure class diagram" uid="_ppApgAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_-fNTkbySEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_-fNTkrySEeethoQJP8Jpig">
         <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_JlE0wbyTEeethoQJP8Jpig" sourceArrow="FillDiamond" routingStyle="manhattan">
@@ -357,7 +357,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_GuxWAbyTEeethoQJP8Jpig" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_GuxWAryTEeethoQJP8Jpig" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GuxWA7yTEeethoQJP8Jpig" points="[0, 0, 24, 70]$[-24, -70, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GuxWA7yTEeethoQJP8Jpig" points="[0, 0, 42, 118]$[-25, -68, 17, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GuxWCryTEeethoQJP8Jpig" id="(0.6878980891719745,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GuxWC7yTEeethoQJP8Jpig" id="(0.5,0.5)"/>
         </edges>
@@ -389,7 +389,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_nHuaUbyTEeethoQJP8Jpig" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_nHuaUryTEeethoQJP8Jpig" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nHuaU7yTEeethoQJP8Jpig" points="[0, 0, 191, 23]$[-191, -23, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nHuaU7yTEeethoQJP8Jpig" points="[0, 0, 189, 23]$[-95, 0, 94, 23]$[-95, -23, 94, 0]$[-189, -23, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nHuaWryTEeethoQJP8Jpig" id="(0.0,0.6020408163265306)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nHuaW7yTEeethoQJP8Jpig" id="(1.0,0.5)"/>
         </edges>
@@ -437,7 +437,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zB67cbyTEeethoQJP8Jpig" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zB67cryTEeethoQJP8Jpig" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zB67c7yTEeethoQJP8Jpig" points="[0, 0, -218, 285]$[218, -285, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zB67c7yTEeethoQJP8Jpig" points="[0, 0, -216, 284]$[216, 0, 0, 284]$[216, -284, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zB67eryTEeethoQJP8Jpig" id="(1.0,0.6122448979591837)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zB67e7yTEeethoQJP8Jpig" id="(0.22929936305732485,1.0)"/>
         </edges>
@@ -533,7 +533,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_I9DxgbyeEeegNu0Emtqhnw" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_I9DxgryeEeegNu0Emtqhnw" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_I9Dxg7yeEeegNu0Emtqhnw" points="[0, 0, 335, 324]$[-335, -324, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_I9Dxg7yeEeegNu0Emtqhnw" points="[-8, -7, 357, 323]$[-310, -280, 55, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I9DxiryeEeegNu0Emtqhnw" id="(0.5283018867924528,0.07)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I9Dxi7yeEeegNu0Emtqhnw" id="(0.5,0.5)"/>
         </edges>
@@ -847,7 +847,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/structure"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_ZaBewLyUEeethoQJP8Jpig" name="relationship class diagram">
+  <diagram:DSemanticDiagram xmi:id="_ZaBewLyUEeethoQJP8Jpig" name="relationship class diagram" uid="_prANkAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ZaBewbyUEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ZaBewryUEeethoQJP8Jpig">
         <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_9ShMELyUEeethoQJP8Jpig" routingStyle="manhattan">
@@ -1067,7 +1067,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/relationship"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_SJT0wLyVEeethoQJP8Jpig" name="datatype class diagram">
+  <diagram:DSemanticDiagram xmi:id="_SJT0wLyVEeethoQJP8Jpig" name="datatype class diagram" uid="_pradQAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_SJT0wbyVEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_SJT0wryVEeethoQJP8Jpig"/>
     </ownedAnnotationEntries>
@@ -1128,7 +1128,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_XyFbJLyVEeethoQJP8Jpig" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_XyFbJbyVEeethoQJP8Jpig" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XyFbJryVEeethoQJP8Jpig" points="[0, 0, -122, 106]$[122, -106, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XyFbJryVEeethoQJP8Jpig" points="[8, -4, -220, 106]$[149, -72, -79, 38]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XyFbLbyVEeethoQJP8Jpig" id="(0.5833333333333334,0.04)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XyFbLryVEeethoQJP8Jpig" id="(0.5,0.5)"/>
         </edges>
@@ -1221,7 +1221,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//foundation/datatype"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_s8rJkLyVEeethoQJP8Jpig" name="architecture class diagram">
+  <diagram:DSemanticDiagram xmi:id="_s8rJkLyVEeethoQJP8Jpig" name="architecture class diagram" uid="_prvNYAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_s8rJkbyVEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_s8rJkryVEeethoQJP8Jpig"/>
     </ownedAnnotationEntries>
@@ -1254,7 +1254,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//architecture"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_xvexQLyVEeethoQJP8Jpig" name="information class diagram">
+  <diagram:DSemanticDiagram xmi:id="_xvexQLyVEeethoQJP8Jpig" name="information class diagram" uid="_prxpoAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_xvexQbyVEeethoQJP8Jpig" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_xvexQryVEeethoQJP8Jpig">
         <computedStyleDescriptions xmi:type="style:BundledImageDescription" xmi:id="_VYBS0bydEeegNu0Emtqhnw" labelExpression="service:renderAsNode" labelAlignment="LEFT" tooltipExpression="service:renderTooltip" sizeComputationExpression="1">
@@ -1395,7 +1395,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_-NysEbyVEeethoQJP8Jpig" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_-NysEryVEeethoQJP8Jpig" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-NysE7yVEeethoQJP8Jpig" points="[0, 0, 0, 58]$[0, -58, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-NysE7yVEeethoQJP8Jpig" points="[0, 0, 0, 106]$[0, -56, 0, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-NysGryVEeethoQJP8Jpig" id="(0.37579617834394907,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-NysG7yVEeethoQJP8Jpig" id="(0.37579617834394907,0.5)"/>
         </edges>
@@ -1411,7 +1411,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_peDncbyyEeeSqpX5z_08IA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_peDncryyEeeSqpX5z_08IA" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_peDnc7yyEeeSqpX5z_08IA" points="[0, 0, -95, 0]$[95, 0, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_peDnc7yyEeeSqpX5z_08IA" points="[0, 0, -93, 1]$[93, 0, 0, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_peNYdLyyEeeSqpX5z_08IA" id="(1.0,0.7244897959183674)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_peNYdbyyEeeSqpX5z_08IA" id="(0.0,0.23711340206185566)"/>
         </edges>
@@ -1620,7 +1620,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//architecture/information"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_s9MfIMCUEeetMb0wg4LIUQ" name="business class diagram">
+  <diagram:DSemanticDiagram xmi:id="_s9MfIMCUEeetMb0wg4LIUQ" name="business class diagram" uid="_psbJ4AObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_s9MfIcCUEeetMb0wg4LIUQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_s9MfIsCUEeetMb0wg4LIUQ"/>
     </ownedAnnotationEntries>
@@ -1676,7 +1676,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//business"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_AQ0r8MCVEeetMb0wg4LIUQ" name="financial class diagram">
+  <diagram:DSemanticDiagram xmi:id="_AQ0r8MCVEeetMb0wg4LIUQ" name="financial class diagram" uid="_pseNMAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AQ6ykMCVEeetMb0wg4LIUQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_AQ6ykcCVEeetMb0wg4LIUQ"/>
     </ownedAnnotationEntries>
@@ -1709,7 +1709,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_G521cMCVEeetMb0wg4LIUQ" name="product class diagram">
+  <diagram:DSemanticDiagram xmi:id="_G521cMCVEeetMb0wg4LIUQ" name="product class diagram" uid="_psgCYAObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_G521ccCVEeetMb0wg4LIUQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_G521csCVEeetMb0wg4LIUQ">
         <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_zteDocCVEeetMb0wg4LIUQ" sourceArrow="FillDiamond" routingStyle="manhattan">
@@ -1919,7 +1919,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zuzgYcCVEeetMb0wg4LIUQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zuzgYsCVEeetMb0wg4LIUQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuzgY8CVEeetMb0wg4LIUQ" points="[0, 0, 84, -94]$[-84, 94, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuzgY8CVEeetMb0wg4LIUQ" points="[0, 0, 83, -92]$[0, 46, 83, -46]$[-83, 46, 0, -46]$[-83, 92, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zu_toMCVEeetMb0wg4LIUQ" id="(0.3050847457627119,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zu_tocCVEeetMb0wg4LIUQ" id="(0.711864406779661,0.0)"/>
         </edges>
@@ -1935,7 +1935,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_12gzwcCVEeetMb0wg4LIUQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_12gzwsCVEeetMb0wg4LIUQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_12gzw8CVEeetMb0wg4LIUQ" points="[0, 0, -109, -94]$[109, 94, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_12gzw8CVEeetMb0wg4LIUQ" points="[0, 0, -108, -92]$[0, 46, -108, -46]$[108, 46, 0, -46]$[108, 92, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_12gzysCVEeetMb0wg4LIUQ" id="(0.5,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_12gzy8CVEeetMb0wg4LIUQ" id="(0.4322033898305085,0.0)"/>
         </edges>
@@ -1951,7 +1951,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_5gX2YcCVEeetMb0wg4LIUQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_5gX2YsCVEeetMb0wg4LIUQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5gX2Y8CVEeetMb0wg4LIUQ" points="[0, 0, -170, -48]$[170, 48, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5gX2Y8CVEeetMb0wg4LIUQ" points="[0, 0, -168, -48]$[84, 0, -84, -48]$[84, 48, -84, 0]$[168, 48, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5gX2asCVEeetMb0wg4LIUQ" id="(1.0,0.6122448979591837)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5gX2a8CVEeetMb0wg4LIUQ" id="(0.0,0.6020408163265306)"/>
         </edges>
@@ -1967,7 +1967,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_BJfj4cCWEeetMb0wg4LIUQ" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_BJfj4sCWEeetMb0wg4LIUQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BJfj48CWEeetMb0wg4LIUQ" points="[0, 0, 85, 94]$[-85, -94, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BJfj48CWEeetMb0wg4LIUQ" points="[0, 0, 85, 142]$[-56, -92, 29, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BJgyAMCWEeetMb0wg4LIUQ" id="(0.711864406779661,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BJgyAcCWEeetMb0wg4LIUQ" id="(0.5,0.5)"/>
         </edges>
@@ -1983,7 +1983,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_BknZocCWEeetMb0wg4LIUQ" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_BknZosCWEeetMb0wg4LIUQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BknZo8CWEeetMb0wg4LIUQ" points="[0, 0, -119, 94]$[119, -94, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BknZo8CWEeetMb0wg4LIUQ" points="[0, 0, -120, 142]$[77, -92, -43, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BkonwMCWEeetMb0wg4LIUQ" id="(0.4067796610169492,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BkonwcCWEeetMb0wg4LIUQ" id="(0.5,0.5)"/>
         </edges>
@@ -1999,7 +1999,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_E5nmkcCWEeetMb0wg4LIUQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_E5nmksCWEeetMb0wg4LIUQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E5nmk8CWEeetMb0wg4LIUQ" points="[0, 0, 218, -118]$[-218, 118, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E5nmk8CWEeetMb0wg4LIUQ" points="[0, 0, 217, -117]$[0, 117, 217, 0]$[-217, 117, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E5nmmsCWEeetMb0wg4LIUQ" id="(0.6101694915254238,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E5nmm8CWEeetMb0wg4LIUQ" id="(1.0,0.6122448979591837)"/>
         </edges>
@@ -2395,7 +2395,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="language.ecore#//business/financial/financialProduct"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_V9GgQMCXEeetMb0wg4LIUQ" name="party class diagram">
+  <diagram:DSemanticDiagram xmi:id="_V9GgQMCXEeetMb0wg4LIUQ" name="party class diagram" uid="_ptoq0AObEeiznLB9aHdJZQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_V9GgQcCXEeetMb0wg4LIUQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_V9GgQsCXEeetMb0wg4LIUQ"/>
     </ownedAnnotationEntries>
@@ -2473,7 +2473,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_HwW4QcCYEeetMb0wg4LIUQ" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_HwW4QsCYEeetMb0wg4LIUQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HwW4Q8CYEeetMb0wg4LIUQ" points="[0, 0, -71, 70]$[71, -70, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HwW4Q8CYEeetMb0wg4LIUQ" points="[0, 0, -70, 118]$[40, -68, -30, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HwXfVsCYEeetMb0wg4LIUQ" id="(0.7289719626168224,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HwXfV8CYEeetMb0wg4LIUQ" id="(0.2413793103448276,0.5000000000000001)"/>
         </edges>
@@ -2489,7 +2489,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_JfJVUcCYEeetMb0wg4LIUQ" routing="Tree"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_JfJVUsCYEeetMb0wg4LIUQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JfJVU8CYEeetMb0wg4LIUQ" points="[0, 0, 168, 70]$[-168, -70, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JfJVU8CYEeetMb0wg4LIUQ" points="[0, 0, 158, 118]$[-92, -68, 66, 50]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JfJ8YsCYEeetMb0wg4LIUQ" id="(0.5303867403314917,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JfJ8Y8CYEeetMb0wg4LIUQ" id="(0.2413793103448276,0.5000000000000001)"/>
         </edges>
