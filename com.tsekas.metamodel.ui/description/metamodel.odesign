@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="metamodel" version="12.0.0.2017041100">
+  <ownedViewpoints name="InformationArchitectureViewpoint" label="Information Architecture" modelFileExtension="*.information">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DomainDiagramId" label="Domain Diagram" initialisation="true" domainClass="Domain" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <containerMappings name="createConceptNode" label="Concept" domainClass="Concept" childrenPresentation="VerticalStack"/>
+        <toolSections name="createStructureTool" label="Structures">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createConceptContainer" label="Concept" containerMappings="//@ownedViewpoints[name='InformationArchitectureViewpoint']/@ownedRepresentations[name='DomainDiagramId']/@defaultLayer/@containerMappings[name='createConceptNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Concept" referenceName="packagedElements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="com.tsekas.metamodel.ui.Services"/>
+  </ownedViewpoints>
+</description:Group>
