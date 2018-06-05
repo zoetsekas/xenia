@@ -58,5 +58,10 @@
 		<module>
 			../../../eclipse-workspace/com.tsekas.metamodel.ui
 		</module>
+		<module>../com.tsekas.metamodel.branding</module>
+		<module>../com.tsekas.metamodel.ui</module>
+		<module>
+			../../../eclipse-workspace/com.tsekas.metamodel.ui.properties
+		</module>
 	</modules>
 </project>

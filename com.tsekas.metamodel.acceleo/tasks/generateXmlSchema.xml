@@ -9,6 +9,9 @@
         <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar"/>
         <pathelement location="${ECLIPSE_HOME}/plugins/javax.inject_1.0.0.v20091030.jar"/>
         <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.osgi_3.12.50.v20170928-1321.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.region_1.4.0.v20170117-1425.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.transforms.hook_1.2.0.v20170105-1446.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.weaving.hook_1.2.0.v20160929-1449.jar"/>
         <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.osgi.compatibility.state_1.1.0.v20170516-1513.jar"/>
         <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar"/>
         <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.jobs_3.9.2.v20171030-1027.jar"/>
